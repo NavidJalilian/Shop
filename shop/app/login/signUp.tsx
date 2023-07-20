@@ -1,6 +1,7 @@
 "use client";
 import Button from "@/components/button";
 import Login from "@/components/login";
+import Link from "next/link";
 import React from "react";
 
 export default function SignUp() {
@@ -87,7 +88,9 @@ export default function SignUp() {
             </div>
           </div>
           <div className='mb-6 text-center'>
-            <Button className='py-2'>Sign Up</Button>
+            <Button className='py-2'>
+              <Link href='/login'>Sign Up</Link>
+            </Button>
           </div>
           <hr className='mb-6 border-t' />
           <div className='text-center'>
