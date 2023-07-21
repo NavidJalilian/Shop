@@ -3,6 +3,7 @@ import { useState } from "react";
 import Input from "./input";
 import { Butcherman } from "next/font/google";
 import Button from "./button";
+import StyledLink from "./link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +57,7 @@ const Navbar = () => {
               } pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
             >
               <Input />
-              <Button>Login</Button>
+              <StyledLink href='signIn'>Login</StyledLink>
               <Button variant='outlined'>Sign Up</Button>
 
               {/* <div className='relative' onClick={toggleMenu}>

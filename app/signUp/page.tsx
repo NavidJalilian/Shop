@@ -3,6 +3,7 @@ import Button from "@/app/components/button";
 import Login from "@/app/components/login";
 import Link from "next/link";
 import React from "react";
+import StyledLink from "../components/link";
 
 export default function SignUp() {
   return (
@@ -88,9 +89,7 @@ export default function SignUp() {
             </div>
           </div>
           <div className='mb-6 text-center'>
-            <Button className='py-2'>
-              <Link href='/login'>Sign Up</Link>
-            </Button>
+            <StyledLink href='/signUp'>Sign Up</StyledLink>
           </div>
           <hr className='mb-6 border-t' />
           <div className='text-center'>
