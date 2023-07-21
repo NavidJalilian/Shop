@@ -1,6 +1,6 @@
 "use client";
-import Button from "@/components/button";
-import Login from "@/components/login";
+import Button from "@/app/components/button";
+import Login from "@/app/components/login";
 import Link from "next/link";
 import React from "react";
 

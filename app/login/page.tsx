@@ -1,5 +1,5 @@
-import Login from "@/components/login";
-import Navbar from "@/components/navbar";
+import Login from "@/app/components/login";
+import Navbar from "@/app/components/navbar";
 import Image from "next/image";
 import SignUp from "./signUp";
 
