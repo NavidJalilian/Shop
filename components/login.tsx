@@ -11,15 +11,15 @@ type Props = {
 
 export default function Login({ imgUrl = "/login.webp", children }: Props) {
   return (
-    <div className='container mx-auto'>
-      <div className='flex justify-center px-6 mb-12'>
-        <div className='w-full xl:w-3/4 lg:w-11/12 flex'>
+    <div className='   '>
+      <div className='flex justify-between w-full mb-12'>
+        <div className='w-full   flex'>
           <Image
-            className='w-full h-auto bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg'
+            className='w-full bg-gray-400 hidden lg:block lg:w-5/12 bg-cover aspect-square '
             src={imgUrl}
             alt='login form of users'
-            width={700}
-            height={950}
+            width={900}
+            height={1200}
           />
           {children}
         </div>

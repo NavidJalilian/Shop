@@ -1,9 +1,9 @@
 "use client";
-import Button from "@/app/components/button";
-import Login from "@/app/components/login";
+import Button from "@/components/button";
+import Login from "@/components/login";
 import Link from "next/link";
 import React from "react";
-import StyledLink from "../components/link";
+import StyledLink from "../../../components/link";
 
 export default function SignUp() {
   return (

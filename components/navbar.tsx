@@ -5,7 +5,13 @@ import { Butcherman } from "next/font/google";
 import Button from "./button";
 import StyledLink from "./link";
 
-const Navbar = () => {
+const Navbar = ({
+  signUp = "outlined",
+  logIn = "contained",
+}: {
+  signUp: "contained" | "outlined";
+  logIn: "contained" | "outlined";
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -57,8 +63,10 @@ const Navbar = () => {
               } pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
             >
               <Input />
-              <StyledLink href='signIn'>Login</StyledLink>
-              <Button variant='outlined'>Sign Up</Button>
+              <StyledLink href='auth/signIn' variant={logIn}>
+                Login
+              </StyledLink>
+              <Button variant={signUp}>Sign Up</Button>
 
               {/* <div className='relative' onClick={toggleMenu}>
                 <button className='flex flex-row text-gray-900 bg-gray-200 items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline'>
