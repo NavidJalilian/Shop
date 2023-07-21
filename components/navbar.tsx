@@ -62,8 +62,8 @@ const Navbar = ({
                 isOpen ? "flex" : "hidden"
               } pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
             >
-              <Input />
-              <StyledLink href='auth/signIn' variant={logIn}>
+              <Input icon='/svgs/search.svg' />
+              <StyledLink href='/auth/signIn' variant={logIn}>
                 Login
               </StyledLink>
               <Button variant={signUp}>Sign Up</Button>
