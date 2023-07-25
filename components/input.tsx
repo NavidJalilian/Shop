@@ -6,7 +6,7 @@ type Props = {
 };
 export default function Input({ icon }: Props) {
   return (
-    <div className='flex relative mx-auto w-1/4 max-w-md'>
+    <div className='flex relative md:mx-auto md:w-1/4 w-full max-w-md'>
       <input
         className='bg-offWhite transition h-8 px-5 pr-10 rounded-md focus:outline-none w-full text-black text-16 '
         type='search'

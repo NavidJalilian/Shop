@@ -10,7 +10,7 @@ const PasswordInput = ({ ...props }: Props) => {
   const [showPassword, setShowPassword] = useState(false);
 
   const toggleShowPassword = () => {
-    setShowPassword((prevShowPassword) => !prevShowPassword);
+    setShowPassword((prev) => !prev);
   };
 
   return (
