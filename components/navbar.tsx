@@ -63,7 +63,7 @@ const Navbar = ({
               } pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
             >
               <Input icon='/svgs/search.svg' />
-              <StyledLink href='/auth/signIn' variant={logIn}>
+              <StyledLink href='/signIn' variant={logIn}>
                 Login
               </StyledLink>
               <Button variant={signUp}>Sign Up</Button>
