@@ -5,6 +5,7 @@ import { Butcherman } from "next/font/google";
 import Button from "./button";
 import StyledLink from "./link";
 
+
 const Navbar = ({
   signUp = "outlined",
   logIn = "contained",

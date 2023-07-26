@@ -58,9 +58,9 @@ const Navbar = ({
               </button>
             </div>
             <nav
-              className={`flex-col flex-grow gap-3 ${
+              className={`flex-col flex-grow gap-3  ${
                 isOpen ? "flex" : "hidden"
-              } pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
+              } pb-4 md:pb-0 md:flex md:justify-end md:flex-row `}
             >
               <Input icon='/svgs/search.svg' />
               <StyledLink href='/signIn' variant={logIn}>

@@ -13,9 +13,9 @@ export default function Login({ imgUrl = "/login.webp", children }: Props) {
   return (
     <div className='   '>
       <div className='flex justify-between w-full mb-12'>
-        <div className='w-full   flex'>
+        <div className='w-full  h-[calc(100vh-60px)]  flex'>
           <Image
-            className='w-full bg-gray-400 hidden lg:block lg:w-5/12 bg-cover aspect-square '
+            className='w-full bg-gray-400 hidden lg:block lg:w-5/12 bg-cover aspect-square h-full '
             src={imgUrl}
             alt='login form of users'
             width={900}
