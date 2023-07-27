@@ -1,14 +1,18 @@
 "use client";
-import Login from "@/components/login";
-import Navbar from "@/components/navbar";
+import Swiper from "@/components/swiper";
 import Image from "next/image";
-import SignUp from "./auth/signUp/page";
-import Header from "@/components/header";
 
 export default function Home() {
-  return (
-    <main className=''>
+    return (
+        <main className=''>
+            <Swiper width={'500vw'}>
 
-    </main>
-  );
+                <Image src='/login.webp' className='w-screen' fill={true} alt='jjbyj'
+                       draggable={false}/>
+                <Image src='/login.webp' alt='jjbyj' fill={true}
+                       draggable={false}/>
+
+            </Swiper>
+        </main>
+    );
 }
