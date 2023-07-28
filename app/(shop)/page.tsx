@@ -4,6 +4,7 @@ import Image from "next/image";
 import SeasonBanner from "@/components/seasonBanner";
 import Card, {CardPropsType} from "@/components/card";
 import React from "react";
+import Footer from "@/components/footer";
 
 const data: CardPropsType[] = [
     {
@@ -204,7 +205,7 @@ export default function Home() {
                     </div>
                 </div>)}
             </div>
-
+<Footer />
         </main>
     );
 }

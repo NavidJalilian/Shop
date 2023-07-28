@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="fix ts erros">
+    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="making banner responsive">
+      <change afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/signIn/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/signin/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/signUp/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/signup/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/seasonBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/seasonBanner.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <workItem from="1690465386469" duration="2502000" />
       <workItem from="1690530674139" duration="14574000" />
       <workItem from="1690547773813" duration="255000" />
-      <workItem from="1690548060959" duration="1985000" />
+      <workItem from="1690548060959" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="fixed product page">
       <created>1690547539704</created>
@@ -144,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690549111273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="making banner responsive">
+      <created>1690551016024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690551016024</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +188,8 @@
     <MESSAGE value="remove strict check ts" />
     <MESSAGE value="igonore build errors" />
     <MESSAGE value="fix ts erros" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix ts erros" />
+    <MESSAGE value="making banner responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="making banner responsive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
