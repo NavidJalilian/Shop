@@ -10,8 +10,8 @@ const Navbar = ({
   signUp = "outlined",
   logIn = "contained",
 }: {
-  signUp: "contained" | "outlined";
-  logIn: "contained" | "outlined";
+  signUp?: "contained" | "outlined";
+  logIn?: "contained" | "outlined";
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
