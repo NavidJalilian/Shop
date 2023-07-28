@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Indicator from "@/components/indicator";
 import Image from "next/image";
 import Button from "@/components/button";
-
+// @ts-Ignore
 const icon=  <svg viewBox="0 0 24 45" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="ChevronLeft" clipPath="url(#clip0_134_249)">
         <path id="Vector" fillRule="evenodd" clipRule="evenodd"
