@@ -28,6 +28,7 @@ export default function StyledLink({
         case "outlined":
             return (
                 <Link
+                    href='#'
                     className='text-purple px-10 py-2  text-sm shadow-sm bg-white border-2 border-gray
         font-medium tracking-wider  text-purple-100 rounded-md 
         hover:bg-purple-800'
