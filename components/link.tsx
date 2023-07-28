@@ -16,6 +16,7 @@ export default function StyledLink({
         case "contained":
             return (
                 <Link
+                    href='#'
                     className={`bg-purple px-10  text-sm shadow-sm text-white
         font-sans tracking-wider  text-purple-100 rounded-md 
          hover:shadow-md py-2  ${className}`}
