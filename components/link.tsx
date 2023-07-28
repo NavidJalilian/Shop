@@ -7,6 +7,7 @@ type Props = {
 } & AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export default function StyledLink({
+    href,
                                        variant = "contained",
                                        children,
                                        className,
@@ -16,7 +17,7 @@ export default function StyledLink({
         case "contained":
             return (
                 <Link
-                    href='#'
+                    href={href}
                     className={`bg-purple px-10  text-sm shadow-sm text-white
         font-sans tracking-wider  text-purple-100 rounded-md 
          hover:shadow-md py-2  ${className}`}
@@ -28,7 +29,7 @@ export default function StyledLink({
         case "outlined":
             return (
                 <Link
-                    href='#'
+                    href={href}
                     className='text-purple px-10 py-2  text-sm shadow-sm bg-white border-2 border-gray
         font-medium tracking-wider  text-purple-100 rounded-md 
         hover:bg-purple-800'

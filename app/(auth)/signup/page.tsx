@@ -89,7 +89,7 @@ export default function SignUp() {
             </div>
           </div>
           <div className='mb-6 text-center'>
-            <StyledLink href='/signUp'>Sign Up</StyledLink>
+            <StyledLink href='/signup'>Sign Up</StyledLink>
           </div>
           <hr className='mb-6 border-t' />
           <div className='text-center'>
