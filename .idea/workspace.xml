@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="remove strict check ts" />
+    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="igonore build errors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +79,7 @@
       <workItem from="1690465386469" duration="2502000" />
       <workItem from="1690530674139" duration="14574000" />
       <workItem from="1690547773813" duration="255000" />
-      <workItem from="1690548060959" duration="299000" />
+      <workItem from="1690548060959" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="fixed product page">
       <created>1690547539704</created>
@@ -116,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690548302406</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove strict check ts">
+      <created>1690548433338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690548433338</updated>
+    </task>
+    <task id="LOCAL-00007" summary="igonore build errors">
+      <created>1690548672745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690548672745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +169,8 @@
     <MESSAGE value="fix build error" />
     <MESSAGE value="push configs" />
     <MESSAGE value="remove strict check ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove strict check ts" />
+    <MESSAGE value="igonore build errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="igonore build errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

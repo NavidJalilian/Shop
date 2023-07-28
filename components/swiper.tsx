@@ -23,8 +23,15 @@ const Swiper = ({
                     showIndicator = true,
                     prev,
                     indicatorWidth = 350,
-                    variant = "filled",
-                }) => {
+                }:{
+    children:Element[] | any,
+    size?:number,
+    width?:any,
+    showIndicator?:boolean,
+    prev?:boolean,
+    indicatorWidth?:number,
+
+}) => {
     const [Index, setIndex] = useState(0);
     const maxIndex = size - 1;
     const [Info, setInfo] = useState({
