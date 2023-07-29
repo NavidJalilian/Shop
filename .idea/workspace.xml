@@ -4,14 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="making banner responsive">
-      <change afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
+    <list default="true" id="34fdc617-23f0-40d1-9f92-b2e2dfb71c3b" name="Changes" comment="add footer">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/testemonial.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svgs/rightFlash.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/signin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/signup/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(shop)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(shop)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(shop)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(shop)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InputLabel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/InputLabel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/indicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/indicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/passwordInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/passwordInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/seasonBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/seasonBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/swiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/swiper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -23,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectId" id="2T9aoigujpQ0QQ6GAyUK6MNqMWX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,19 +66,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Shop/public",
+    "last_opened_file_path": "D:/Shop/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "ts.external.directory.path": "D:\\Shop\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shop\components" />
       <recent name="D:\Shop\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +116,9 @@
       <workItem from="1690465386469" duration="2502000" />
       <workItem from="1690530674139" duration="14574000" />
       <workItem from="1690547773813" duration="255000" />
-      <workItem from="1690548060959" duration="3112000" />
+      <workItem from="1690548060959" duration="3487000" />
+      <workItem from="1690620793676" duration="9000" />
+      <workItem from="1690630832674" duration="8998000" />
     </task>
     <task id="LOCAL-00001" summary="fixed product page">
       <created>1690547539704</created>
@@ -147,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690551016024</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add footer">
+      <created>1690552397087</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690552397087</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,15 +232,40 @@
     <MESSAGE value="igonore build errors" />
     <MESSAGE value="fix ts erros" />
     <MESSAGE value="making banner responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="making banner responsive" />
+    <MESSAGE value="add footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/(shop)/page.tsx</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(shop)/page.tsx</url>
+          <line>221</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(shop)/page.tsx</url>
+          <line>220</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/footer.tsx</url>
+          <line>132</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/rating.tsx</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

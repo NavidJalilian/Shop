@@ -7,7 +7,7 @@ type Props = {
 } & AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export default function StyledLink({
-    href,
+                                       href,
                                        variant = "contained",
                                        children,
                                        className,

@@ -20,11 +20,11 @@ export default function Card({
                    src={url}
                    alt={`Product image of ${name}`}/>
             <div className="p-4">
-                <h2 className="mb-2 text-lg font-medium  text-gray-900">{name}</h2>
+                <h2 className="mb-2 text-lg font-medium text-gray-900">{name}</h2>
                 <p className="mb-2 text-base text-gray-700">{desc}</p>
                 <div className="flex items-center">
-                    <p className="mr-2 text-lg font-semibold text-gray-900 ">{price}</p>
-                    <p className="text-base  font-medium text-gray-500 line-through dark:text-gray-300">{offPrice}</p>
+                    <p className="mr-2 text-lg font-semibold text-gray-900">{price}</p>
+                    <p className="text-base font-medium text-gray-500 line-through dark:text-gray-300">{offPrice}</p>
                     <p className="ml-auto text-base font-medium text-green-500">{percent} off</p>
                 </div>
             </div>

@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import Indicator from "@/components/indicator";
-import Image from "next/image";
-import Button from "@/components/button";
 // @ts-Ignore
-const icon=  <svg viewBox="0 0 24 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+const icon = <svg viewBox="0 0 24 45" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="ChevronLeft" clipPath="url(#clip0_134_249)">
         <path id="Vector" fillRule="evenodd" clipRule="evenodd"
               d="M23.4992 43.7723C23.3409 43.9302 23.1528 44.0554 22.9457 44.1408C22.7386 44.2263 22.5166 44.2702 22.2924 44.2702C22.0682 44.2702 21.8462 44.2263 21.6391 44.1408C21.432 44.0554 21.2439 43.9302 21.0856 43.7723L0.631046 23.4352C0.472307 23.2778 0.346367 23.0907 0.260435 22.8848C0.174505 22.6789 0.130272 22.4582 0.130272 22.2353C0.130272 22.0124 0.174505 21.7916 0.260435 21.5857C0.346367 21.3799 0.472307 21.1928 0.631046 21.0354L21.0856 0.698246C21.4057 0.380012 21.8398 0.201233 22.2924 0.201233C22.7451 0.201233 23.1792 0.380012 23.4992 0.698246C23.8193 1.01648 23.9991 1.44809 23.9991 1.89814C23.9991 2.34818 23.8193 2.7798 23.4992 3.09803L4.24809 22.2353L23.4992 41.3726C23.658 41.53 23.7839 41.717 23.8698 41.9229C23.9558 42.1288 24 42.3495 24 42.5725C24 42.7954 23.9558 43.0161 23.8698 43.222C23.7839 43.4279 23.658 43.6149 23.4992 43.7723Z"
@@ -23,13 +21,13 @@ const Swiper = ({
                     showIndicator = true,
                     prev,
                     indicatorWidth = 350,
-                }:{
-    children:Element[] | any,
-    size?:number,
-    width?:any,
-    showIndicator?:boolean,
-    prev?:boolean,
-    indicatorWidth?:number,
+                }: {
+    children: Element[] | any,
+    size?: number,
+    width?: any,
+    showIndicator?: boolean,
+    prev?: boolean,
+    indicatorWidth?: number,
 
 }) => {
     const [Index, setIndex] = useState(0);
@@ -103,13 +101,15 @@ const Swiper = ({
                 >
                     {children}
                 </div>
-            <Indicator  size={size} Index={Index} setIndex={setIndex} maxWidth={indicatorWidth}/>
-                <button className={`absolute text-white left-12 top-1/2 w-6 h-12 disabled:opacity-60 `} disabled={Index ===0}>
+                <Indicator size={size} Index={Index} setIndex={setIndex} maxWidth={indicatorWidth}/>
+                <button className={`absolute text-white left-12 top-1/2 w-6 h-12 disabled:opacity-60 `}
+                        disabled={Index === 0}>
                     {icon}
 
 
                 </button>
-                <button className='rotate-180 text-white absolute right-12 top-1/2  w-6 h-12 disabled:opacity-60' disabled={Index===size-1} >
+                <button className='absolute top-1/2 right-12 h-12 w-6 rotate-180 text-white disabled:opacity-60'
+                        disabled={Index === size - 1}>
                     {icon}
 
 
