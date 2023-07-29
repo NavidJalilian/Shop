@@ -247,12 +247,11 @@ export default function Home() {
 
             </section>
             <Heading title='Feedback'/>
-            <section className='flex gap-4  p-20 pt-10 flex-wrap'>
+            <section className='flex gap-4  p-20 pt-10 '>
+                <Testemonial/>
+                <Testemonial/>
+                <Testemonial/>
 
-                <Testemonial/>
-                <Testemonial/>
-                <Testemonial/>
-                <Testemonial/>
             </section>
             <Footer/>
         </main>
